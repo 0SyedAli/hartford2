@@ -1,0 +1,4538 @@
+/*
+! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com
+*/
+*,
+.usman :after,
+.usman :before {
+    box-sizing: border-box;
+    border: 0 solid
+}
+
+.usman :after,
+.usman :before {
+    --tw-content: ""
+}
+
+.usman :host,
+.usman html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    -webkit-tap-highlight-color: transparent
+}
+
+.usman body {
+    margin: 0;
+    line-height: inherit
+}
+
+.usman hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px
+}
+
+.usman abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+.usman h1,
+.usman h2,
+.usman h3,
+.usman h4,
+.usman h5,
+.usman h6 {
+    font-size: inherit;
+    font-weight: inherit
+}
+
+.usman a {
+    color: inherit;
+    text-decoration: inherit
+}
+
+.usman b,
+.usman strong {
+    font-weight: bolder
+}
+
+.usman code,
+.usman kbd,
+.usman pre,
+.usman samp {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-size: 1em
+}
+
+.usman small {
+    font-size: 80%
+}
+
+.usman sub,
+.usman sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+.usman sub {
+    bottom: -.25em
+}
+
+.usman sup {
+    top: -.5em
+}
+
+.usman table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse
+}
+
+.usman button,
+.usman input,
+.usman optgroup,
+.usman select,
+.usman textarea {
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0
+}
+
+.usman button,
+.usman select {
+    text-transform: none
+}
+
+.usman button,
+.usman input:where([type=button]),
+.usman input:where([type=reset]),
+.usman input:where([type=submit]) {
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none
+}
+
+.usman :-moz-focusring {
+    outline: auto
+}
+
+.usman :-moz-ui-invalid {
+    box-shadow: none
+}
+
+.usman progress {
+    vertical-align: baseline
+}
+
+.usman ::-webkit-inner-spin-button,
+.usman ::-webkit-outer-spin-button {
+    height: auto
+}
+
+.usman [type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+.usman ::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+.usman ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+.usman summary {
+    display: list-item
+}
+
+.usman blockquote,
+.usman dd,
+.usman dl,
+.usman figure,
+.usman h1,
+.usman h2,
+.usman h3,
+.usman h4,
+.usman h5,
+.usman h6,
+.usman hr,
+.usman p,
+.usman pre {
+    margin: 0
+}
+
+.usman fieldset {
+    margin: 0
+}
+
+.usman fieldset,
+.usman legend {
+    padding: 0
+}
+
+.usman menu,
+.usman ol,
+.usman ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.usman dialog {
+    padding: 0
+}
+
+.usman textarea {
+    resize: vertical
+}
+
+.usman input::-moz-placeholder,
+.usman textarea::-moz-placeholder {
+    opacity: 1;
+    color: #9ca3af
+}
+
+.usman input::placeholder,
+.usman textarea::placeholder {
+    opacity: 1;
+    color: #9ca3af
+}
+
+.usman [role=button],
+.usman button {
+    cursor: pointer
+}
+
+.usman :disabled {
+    cursor: default
+}
+
+.usman audio,
+.usman canvas,
+.usman embed,
+.usman iframe,
+.usman img,
+.usman object,
+.usman svg,
+.usman video {
+    display: block;
+    vertical-align: middle
+}
+
+.usman img,
+.usman video {
+    max-width: 100%;
+    height: auto
+}
+
+.usman [hidden] {
+    display: none
+}
+
+*,
+.usman :after,
+.usman :before {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+    --tw-contain-size: ;
+    --tw-contain-layout: ;
+    --tw-contain-paint: ;
+    --tw-contain-style:
+}
+
+.usman ::backdrop {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+    --tw-contain-size: ;
+    --tw-contain-layout: ;
+    --tw-contain-paint: ;
+    --tw-contain-style:
+}
+
+.usman .container {
+    width: 100%
+}
+
+@media (min-width: 200px) {
+    .usman .container {
+        max-width: 200px
+    }
+}
+
+@media (min-width: 480px) {
+    .usman .container {
+        max-width: 480px
+    }
+}
+
+@media (min-width: 768px) {
+    .usman .container {
+        max-width: 768px
+    }
+}
+
+@media (min-width: 976px) {
+    .usman .container {
+        max-width: 976px
+    }
+}
+
+@media (min-width: 1440px) {
+    .usman .container {
+        max-width: 1440px
+    }
+}
+
+.usman .static {
+    position: static
+}
+
+.usman .fixed {
+    position: fixed
+}
+
+.usman .absolute {
+    position: absolute
+}
+
+.usman .relative {
+    position: relative
+}
+
+.usman .\!right-0 {
+    right: 0 !important
+}
+
+.usman .bottom-0 {
+    bottom: 0
+}
+
+.usman .bottom-\[-20\%\] {
+    bottom: -20%
+}
+
+.usman .left-0 {
+    left: 0
+}
+
+.usman .left-10 {
+    left: 2.5rem
+}
+
+.usman .left-\[-30px\] {
+    left: -30px
+}
+
+.usman .right-0 {
+    right: 0
+}
+
+.usman .right-4 {
+    right: 1rem
+}
+
+.usman .right-\[-30px\] {
+    right: -30px
+}
+
+.usman .right-\[10px\] {
+    right: 10px
+}
+
+.usman .top-0 {
+    top: 0
+}
+
+.usman .top-4 {
+    top: 1rem
+}
+
+.usman .top-\[1px\] {
+    top: 1px
+}
+
+.usman .top-\[50\%\] {
+    top: 50%
+}
+
+.usman .top-\[70\%\] {
+    top: 70%
+}
+
+.usman .top-\[73px\] {
+    top: 73px
+}
+
+.usman .\!z-\[999\] {
+    z-index: 999 !important
+}
+
+.usman .z-20 {
+    z-index: 20
+}
+
+.usman .m-auto {
+    margin: auto
+}
+
+.usman .mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem
+}
+
+.usman .mx-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.usman .my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem
+}
+
+.usman .my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+
+.usman .my-auto {
+    margin-top: auto;
+    margin-bottom: auto
+}
+
+.usman .mb-10 {
+    margin-bottom: 2.5rem
+}
+
+.usman .mb-2 {
+    margin-bottom: .5rem
+}
+
+.usman .mb-4 {
+    margin-bottom: 1rem
+}
+
+.usman .mb-8 {
+    margin-bottom: 2rem
+}
+
+.usman .mb-\[50\%\] {
+    margin-bottom: 50%
+}
+
+.usman .ml-1 {
+    margin-left: .25rem
+}
+
+.usman .ml-2 {
+    margin-left: .5rem
+}
+
+.usman .ml-4 {
+    margin-left: 1rem
+}
+
+.usman .ml-\[24px\] {
+    margin-left: 24px
+}
+
+.usman .ml-\[30px\] {
+    margin-left: 30px
+}
+
+.usman .mt-4 {
+    margin-top: 1rem
+}
+
+.usman .mt-6 {
+    margin-top: 1.5rem
+}
+
+.usman .mt-8 {
+    margin-top: 2rem
+}
+
+.usman .mt-\[-30px\] {
+    margin-top: -30px
+}
+
+.usman .mt-\[-40px\] {
+    margin-top: -40px
+}
+
+.usman .mt-\[40\%\] {
+    margin-top: 40%
+}
+
+.usman .line-clamp-6 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6
+}
+
+.usman .block {
+    display: block
+}
+
+.usman .inline-block {
+    display: inline-block
+}
+
+.usman .inline {
+    display: inline
+}
+
+.usman .\!flex {
+    display: flex !important
+}
+
+.usman .flex {
+    display: flex
+}
+
+.usman .table {
+    display: table
+}
+
+.usman .grid {
+    display: grid
+}
+
+.usman .contents {
+    display: contents
+}
+
+.usman .hidden {
+    display: none
+}
+
+.usman .h-12 {
+    height: 3rem
+}
+
+.usman .h-32 {
+    height: 8rem
+}
+
+.usman .h-\[75\%\] {
+    height: 75%
+}
+.usman .h-\[65\%\] {
+    height: 65%
+}
+
+.usman .h-\[835px\] {
+    height: 835px
+}
+
+.usman .h-auto {
+    height: auto
+}
+
+.usman .h-full {
+    height: 100%
+}
+
+.usman .w-2\/3 {
+    width: 66.666667%
+}
+
+.usman .w-3\/4 {
+    width: 75%
+}
+
+.usman .w-40 {
+    width: 10rem
+}
+
+.usman .w-\[10\%\] {
+    width: 10%
+}
+
+.usman .w-\[100\%\] {
+    width: 100%
+}
+
+.usman .w-\[14\%\] {
+    width: 14%
+}
+
+.usman .w-\[150px\] {
+    width: 150px
+}
+
+.usman .w-\[20\%\] {
+    width: 20%
+}
+
+.usman .w-\[25\%\] {
+    width: 25%
+}
+
+.usman .w-\[250px\] {
+    width: 250px
+}
+
+.usman .w-\[30\%\] {
+    width: 30%
+}
+
+.usman .w-\[30vw\] {
+    width: 30vw
+}
+
+.usman .w-\[33\%\] {
+    width: 33%
+}
+
+.usman .w-\[40\%\] {
+    width: 40%
+}
+
+.usman .w-\[45\%\] {
+    width: 45%
+}
+
+.usman .w-\[50\%\] {
+    width: 50%
+}
+
+.usman .w-\[55\%\] {
+    width: 55%
+}
+
+.usman .w-\[60\%\] {
+    width: 60%
+}
+
+.usman .w-\[65\%\] {
+    width: 65%
+}
+
+.usman .w-\[70\%\] {
+    width: 70%
+}
+
+.usman .w-\[71px\] {
+    width: 71px
+}
+
+.usman .w-\[80\%\] {
+    width: 80%
+}
+
+.usman .w-\[865px\] {
+    width: 865px
+}
+
+.usman .w-\[90\%\] {
+    width: 90%
+}
+
+.usman .w-\[95\%\] {
+    width: 95%
+}
+
+.usman .w-full {
+    width: 100%
+}
+
+.usman .max-w-\[1350px\] {
+    max-width: 1350px
+}
+
+.usman .max-w-\[1440px\] {
+    max-width: 1440px
+}
+
+.usman .max-w-\[1920px\] {
+    max-width: 1920px
+}
+
+.usman .max-w-\[700px\] {
+    max-width: 700px
+}
+
+.usman .max-w-\[950px\] {
+    max-width: 950px
+}
+
+.usman .max-w-screen-xl {
+    max-width: 1440px
+}
+
+.usman .max-w-sm {
+    max-width: 24rem
+}
+
+.usman .flex-1 {
+    flex: 1 1 0%
+}
+
+.usman .grow {
+    flex-grow: 1
+}
+
+.usman .translate-y-\[50\%\] {
+    --tw-translate-y: 50%
+}
+
+.usman .scale-90,
+.usman .translate-y-\[50\%\] {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.usman .scale-90 {
+    --tw-scale-x: .9;
+    --tw-scale-y: .9
+}
+
+.usman .transform {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+@keyframes bounce {
+    0%,
+    to {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(.8, 0, 1, 1)
+    }
+
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0, 0, .2, 1)
+    }
+}
+
+.usman .animate-bounce {
+    animation: bounce 1s infinite
+}
+
+.usman .cursor-pointer {
+    cursor: pointer
+}
+
+.usman .list-disc {
+    list-style-type: disc
+}
+
+.usman .list-none {
+    list-style-type: none
+}
+
+.usman .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr))
+}
+
+.usman .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+}
+
+.usman .flex-row {
+    flex-direction: row
+}
+
+.usman .flex-col {
+    flex-direction: column
+}
+
+.usman .place-items-start {
+    place-items: start
+}
+
+.usman .place-items-center {
+    place-items: center
+}
+
+.usman .items-start {
+    align-items: flex-start
+}
+
+.usman .items-end {
+    align-items: flex-end
+}
+
+.usman .items-center {
+    align-items: center
+}
+
+.usman .justify-start {
+    justify-content: flex-start
+}
+
+.usman .justify-end {
+    justify-content: flex-end
+}
+
+.usman .justify-center {
+    justify-content: center
+}
+
+.usman .justify-between {
+    justify-content: space-between
+}
+
+.usman .gap-0 {
+    gap: 0
+}
+
+.usman .gap-10 {
+    gap: 2.5rem
+}
+
+.usman .gap-14 {
+    gap: 3.5rem
+}
+
+.usman .gap-16 {
+    gap: 4rem
+}
+
+.usman .gap-2 {
+    gap: .5rem
+}
+
+.usman .gap-28 {
+    gap: 7rem
+}
+
+.usman .gap-3 {
+    gap: .75rem
+}
+
+.usman .gap-4 {
+    gap: 1rem
+}
+
+.usman .gap-5 {
+    gap: 1.25rem
+}
+
+.usman .gap-6 {
+    gap: 1.5rem
+}
+
+.usman .gap-8 {
+    gap: 2rem
+}
+
+.usman .self-end {
+    align-self: flex-end
+}
+
+.usman .justify-self-end {
+    justify-self: end
+}
+
+.usman .overflow-hidden {
+    overflow: hidden
+}
+
+.usman .whitespace-nowrap {
+    white-space: nowrap
+}
+
+.usman .rounded {
+    border-radius: .25rem
+}
+
+.usman .rounded-3xl {
+    border-radius: 1.5rem
+}
+
+.usman .rounded-\[10px\] {
+    border-radius: 10px
+}
+
+.usman .rounded-\[25px\] {
+    border-radius: 25px
+}
+
+.usman .rounded-\[35px\] {
+    border-radius: 35px
+}
+
+.usman .rounded-\[40px\] {
+    border-radius: 40px
+}
+
+.usman .rounded-\[50px\] {
+    border-radius: 50px
+}
+
+.usman .rounded-\[55px\] {
+    border-radius: 55px
+}
+
+.usman .rounded-full {
+    border-radius: 9999px
+}
+
+.usman .rounded-lg {
+    border-radius: .5rem
+}
+
+.usman .rounded-none {
+    border-radius: 0
+}
+
+.usman .rounded-xl {
+    border-radius: .75rem
+}
+
+.usman .border {
+    border-width: 1px
+}
+
+.usman .border-2 {
+    border-width: 2px
+}
+
+.usman .border-\[3px\] {
+    border-width: 3px
+}
+
+.usman .border-x-0 {
+    border-left-width: 0;
+    border-right-width: 0
+}
+
+.usman .border-b-0 {
+    border-bottom-width: 0
+}
+
+.usman .border-l-0 {
+    border-left-width: 0
+}
+
+.usman .border-t-0 {
+    border-top-width: 0
+}
+
+.usman .border-solid {
+    border-style: solid
+}
+
+.usman .border-none {
+    border-style: none
+}
+
+.usman .\!border-\[\#000\] {
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(0 0 0/var(--tw-border-opacity)) !important
+}
+
+.usman .border-\[\#000\] {
+    --tw-border-opacity: 1;
+    border-color: rgb(0 0 0/var(--tw-border-opacity))
+}
+
+.usman .border-\[\#858585\] {
+    --tw-border-opacity: 1;
+    border-color: rgb(133 133 133/var(--tw-border-opacity))
+}
+
+.usman .border-\[\#E8C7FF\] {
+    --tw-border-opacity: 1;
+    border-color: rgb(232 199 255/var(--tw-border-opacity))
+}
+
+.usman .border-\[\#CB6B5C\] {
+    --tw-border-opacity: 1;
+    border-color: #CB6B5C;
+}
+
+.usman .border-\[\#fff\] {
+    --tw-border-opacity: 1;
+    border-color: rgb(255 255 255/var(--tw-border-opacity))
+}
+
+.usman .\!bg-\[\#03316D\] {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(3 49 109/var(--tw-bg-opacity)) !important
+}
+
+.usman .\!bg-\[\#0a1e2a\] {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(10 30 42/var(--tw-bg-opacity)) !important
+}
+
+.usman .bg-\[\#000000\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#03316D\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(3 49 109/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#082583\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(8 37 131/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#0D7077\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(13 112 119/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#0a1e2a\] {
+    --tw-bg-opacity: 1;
+    background-color: #043E5B
+}
+
+.usman .bg-\[\#0d6e75\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(13 110 117/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#6C5E76\],
+.usman .bg-\[\#6c5e76\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(108 94 118/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#96A963\],
+.usman .bg-\[\#96a963\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(150 169 99/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#CAE28B\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(202 226 139/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#E2E3E0\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(226 227 224/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#E4C0FD\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(228 192 253/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#E5C1FD\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 193 253/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#E5C1FE\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 193 254/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#CB6B5C\] {
+    --tw-bg-opacity: 1;
+    background-color: #CB6B5C;
+}
+
+.usman .bg-\[\#F3F3F3\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 243 243/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#F4F4F4\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(244 244 244/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#F8A628B2\] {
+    background-color: #f8a628b2
+}
+
+.usman .bg-\[\#F8A628\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(248 166 40/var(--tw-bg-opacity))
+}
+
+.usman /* .bg-\[\#\] {
+    background-color: #
+} */
+
+.usman .bg-\[\#cae28b\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(202 226 139/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#e2befb\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(226 190 251/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#CB6B5C\] {
+    --tw-bg-opacity: 1;
+    background-color: #CB6B5C;
+}
+
+.usman .bg-\[\#ef4514\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 69 20/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#ff8d66\] {
+    --tw-bg-opacity: 1;
+    background-color: #CB6B5C
+}
+
+.usman .bg-\[\#fff\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[\#ffff\] {
+    background-color: #fff
+}
+
+.usman .bg-\[\#ffffff\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity))
+}
+
+.usman .bg-\[black\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0/var(--tw-bg-opacity))
+}
+
+.usman .bg-pink_color {
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 69 20/var(--tw-bg-opacity))
+}
+
+.usman .\!bg-none {
+    background-image: none !important
+}
+
+.usman .bg-cover {
+    background-size: cover
+}
+
+.usman .bg-center {
+    background-position: 50%
+}
+
+.usman .bg-no-repeat {
+    background-repeat: no-repeat
+}
+
+.usman .object-contain {
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.usman .object-cover {
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.usman .p-2 {
+    padding: .5rem
+}
+
+.usman .p-3 {
+    padding: .75rem
+}
+
+.usman .p-6 {
+    padding: 1.5rem
+}
+
+.usman .px-0 {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.usman .px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem
+}
+
+.usman .px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem
+}
+
+.usman .px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem
+}
+
+.usman .px-2 {
+    padding-left: .5rem;
+    padding-right: .5rem
+}
+
+.usman .px-3 {
+    padding-left: .75rem;
+    padding-right: .75rem
+}
+
+.usman .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+.usman .px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem
+}
+
+.usman .px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
+}
+
+.usman .px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+.usman .py-1 {
+    padding-top: .25rem;
+    padding-bottom: .25rem
+}
+
+.usman .py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem
+}
+
+.usman .py-11 {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem
+}
+
+.usman .py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem
+}
+
+.usman .py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem
+}
+
+.usman .py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem
+}
+
+.usman .py-2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem
+}
+
+.usman .py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem
+}
+
+.usman .py-3 {
+    padding-top: .75rem;
+    padding-bottom: .75rem
+}
+
+.usman .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.usman .py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem
+}
+
+.usman .py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem
+}
+
+.usman .py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}
+
+.usman .py-\[12rem\] {
+    padding-top: 12rem;
+    padding-bottom: 12rem
+}
+
+.usman .py-\[52px\] {
+    padding-top: 52px;
+    padding-bottom: 52px
+}
+
+.usman .pb-0 {
+    padding-bottom: 0
+}
+
+.usman .pb-3 {
+    padding-bottom: .75rem
+}
+
+.usman .pb-4 {
+    padding-bottom: 1rem
+}
+
+.usman .pb-5 {
+    padding-bottom: 1.25rem
+}
+
+.usman .pb-6 {
+    padding-bottom: 1.5rem
+}
+
+.usman .pb-8 {
+    padding-bottom: 2rem
+}
+
+.usman .pl-0 {
+    padding-left: 0
+}
+
+.usman .pl-4 {
+    padding-left: 1rem
+}
+
+.usman .pr-14 {
+    padding-right: 3.5rem
+}
+
+.usman .pt-1 {
+    padding-top: .25rem
+}
+
+.usman .pt-10 {
+    padding-top: 2.5rem
+}
+
+.usman .pt-12 {
+    padding-top: 3rem
+}
+
+.usman .pt-2 {
+    padding-top: .5rem
+}
+
+.usman .pt-24 {
+    padding-top: 6rem
+}
+
+.usman .pt-28 {
+    padding-top: 7rem
+}
+
+.usman .pt-4 {
+    padding-top: 1rem
+}
+
+.usman .pt-8 {
+    padding-top: 2rem
+}
+
+.usman .pt-\[10rem\] {
+    padding-top: 10rem
+}
+
+.usman .text-left {
+    text-align: left
+}
+
+.usman .text-center {
+    text-align: center
+}
+
+.usman .text-right {
+    text-align: right
+}
+
+.usman .text-start {
+    text-align: start
+}
+
+.usman .text-end {
+    text-align: end
+}
+
+.usman .align-bottom {
+    vertical-align: bottom
+}
+
+.usman .\!text-2xl {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important
+}
+
+.usman .text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+
+.usman .text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem
+}
+
+.usman .text-\[14px\] {
+    font-size: 14px
+}
+
+.usman .text-\[15px\] {
+    font-size: 15px
+}
+
+.usman .text-\[16px\] {
+    font-size: 16px
+}
+
+.usman .text-\[17px\] {
+    font-size: 17px
+}
+
+.usman .text-\[18px\] {
+    font-size: 18px
+}
+
+.usman .text-\[20px\] {
+    font-size: 20px
+}
+
+.usman .text-\[22px\] {
+    font-size: 22px
+}
+
+.usman .text-\[24px\] {
+    font-size: 24px
+}
+
+.usman .text-\[30px\] {
+    font-size: 30px
+}
+
+.usman .text-\[35px\] {
+    font-size: 35px
+}
+
+.usman .text-\[40px\] {
+    font-size: 40px
+}
+
+.usman .text-\[50px\] {
+    font-size: 50px
+}
+
+.usman .text-base {
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+
+.usman .text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem
+}
+
+.usman .text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem
+}
+
+.usman .text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
+}
+
+.usman .text-xs {
+    font-size: .75rem;
+    line-height: 1rem
+}
+
+.usman .font-bold {
+    font-weight: 700
+}
+
+.usman .font-extrabold {
+    font-weight: 800
+}
+
+.usman .font-light {
+    font-weight: 300
+}
+
+.usman .font-medium {
+    font-weight: 500
+}
+
+.usman .font-normal {
+    font-weight: 400
+}
+
+.usman .font-semibold {
+    font-weight: 600
+}
+
+.usman .font-thin {
+    font-weight: 100
+}
+
+.usman .uppercase {
+    text-transform: uppercase
+}
+
+.usman .capitalize {
+    text-transform: capitalize
+}
+
+.usman .\!leading-5 {
+    line-height: 1.25rem !important
+}
+
+.usman .\!leading-7 {
+    line-height: 1.75rem !important
+}
+
+.usman .leading-10 {
+    line-height: 2.5rem
+}
+
+.usman .leading-5 {
+    line-height: 1.25rem
+}
+
+.usman .leading-6 {
+    line-height: 1.5rem
+}
+
+.usman .leading-7 {
+    line-height: 1.75rem
+}
+
+.usman .leading-8 {
+    line-height: 2rem
+}
+
+.usman .leading-tight {
+    line-height: 1.25
+}
+
+.usman .\!text-\[\#000\] {
+    --tw-text-opacity: 1 !important;
+    color: rgb(0 0 0/var(--tw-text-opacity)) !important
+}
+
+.usman .\!text-\[\#ef4514\] {
+    --tw-text-opacity: 1 !important;
+    color: rgb(239 69 20/var(--tw-text-opacity)) !important
+}
+
+.usman .\!text-\[\#fff\] {
+    --tw-text-opacity: 1 !important;
+    color: rgb(255 255 255/var(--tw-text-opacity)) !important
+}
+
+.usman .text-\[\#000000\],
+.usman .text-\[\#000\] {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity))
+}
+
+.usman .text-\[\#03316D\] {
+    --tw-text-opacity: 1;
+    color: rgb(3 49 109/var(--tw-text-opacity))
+}
+
+.usman .text-\[\#775da8\] {
+    --tw-text-opacity: 1;
+    color: rgb(119 93 168/var(--tw-text-opacity))
+}
+
+.usman .text-\[\#A5A5A5\] {
+    --tw-text-opacity: 1;
+    color: rgb(165 165 165/var(--tw-text-opacity))
+}
+
+.usman .text-\[\#FFFFFF\] {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+.usman .text-\[\#CB6B5C\] {
+    --tw-text-opacity: 1;
+    color: #CB6B5C;
+}
+
+.usman .text-\[\#fff\],
+.usman .text-\[\#ffffff\] {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+.usman .text-\[16PX\] {
+    color: 16PX
+}
+
+.usman .text-\[black\] {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity))
+}
+
+.usman .text-\[gray\] {
+    --tw-text-opacity: 1;
+    color: rgb(128 128 128/var(--tw-text-opacity))
+}
+
+.usman .text-\[white\] {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+.usman .underline {
+    text-decoration-line: underline
+}
+
+.usman .opacity-0 {
+    opacity: 0
+}
+
+.usman .shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color)
+}
+
+.usman .shadow-2xl,
+.usman .shadow-lg {
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.usman .shadow-lg {
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color)
+}
+
+.usman .shadow-md {
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color)
+}
+
+.usman .shadow-md,
+.usman .shadow-xl {
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.usman .shadow-xl {
+    --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 8px 10px -6px rgba(0, 0, 0, .1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color)
+}
+
+.usman .outline {
+    outline-style: solid
+}
+
+.usman .backdrop-blur-sm {
+    --tw-backdrop-blur: blur(4px);
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)
+}
+
+.usman .transition {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s
+}
+
+.usman .transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s
+}
+
+.usman .transition-colors {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s
+}
+
+.usman .transition-opacity {
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s
+}
+
+.usman .delay-100 {
+    transition-delay: .1s
+}
+
+.usman .delay-700 {
+    transition-delay: .7s
+}
+
+.usman .duration-300 {
+    transition-duration: .3s
+}
+
+.usman body,
+.usman html {
+    max-width: 100vw;
+    overflow-x: hidden
+}
+
+.usman .ant-menu-light {
+    background: none !important
+}
+
+.usman .main_header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999
+}
+
+.usman .header-default {
+    background-color: transparent;
+    transition: background-color .5s;
+    padding-top: 4rem
+}
+
+.usman .header-scrolled {
+    opacity: .98;
+    padding-top: 0;
+    background-color: #f4f4f4;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1)
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-BoldItalic.3ef66694.eot);
+    src: local("Visia Pro Bold Italic"), local("VisiaPro-BoldItalic"), url(/_next/static/media/VisiaPro-BoldItalic.3ef66694.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-BoldItalic.954217b2.woff2) format("woff2"), url(/_next/static/media/VisiaPro-BoldItalic.bd5f8ddd.woff) format("woff"), url(/_next/static/media/VisiaPro-BoldItalic.7d2dd087.ttf) format("truetype");
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-SemiBoldItalic.90e43b47.eot);
+    src: local("../assets/fonts/Visia Pro SemiBold Italic"), local("VisiaPro-SemiBoldItalic"), url(/_next/static/media/VisiaPro-SemiBoldItalic.90e43b47.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-SemiBoldItalic.8b7cb0dd.woff2) format("woff2"), url(/_next/static/media/VisiaPro-SemiBoldItalic.70056078.woff) format("woff"), url(/_next/static/media/VisiaPro-SemiBoldItalic.b86900a0.ttf) format("truetype");
+    font-weight: 600;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-ExtraBoldItalic.c8ca1061.eot);
+    src: local("Visia Pro ExtraBold Italic"), local("VisiaPro-ExtraBoldItalic"), url(/_next/static/media/VisiaPro-ExtraBoldItalic.c8ca1061.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-ExtraBoldItalic.8e5bf60a.woff2) format("woff2"), url(/_next/static/media/VisiaPro-ExtraBoldItalic.ecf2c0da.woff) format("woff"), url(/_next/static/media/VisiaPro-ExtraBoldItalic.1132dea7.ttf) format("truetype");
+    font-weight: 800;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-ExtraLightItalic.75988dd0.eot);
+    src: local("Visia Pro ExtraLight Italic"), local("VisiaPro-ExtraLightItalic"), url(/_next/static/media/VisiaPro-ExtraLightItalic.75988dd0.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-ExtraLightItalic.94243ecc.woff2) format("woff2"), url(/_next/static/media/VisiaPro-ExtraLightItalic.b76d04a0.woff) format("woff"), url(/_next/static/media/VisiaPro-ExtraLightItalic.53925557.ttf) format("truetype");
+    font-weight: 200;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-Italic.ae08ae03.eot);
+    src: local("Visia Pro Italic"), local("VisiaPro-Italic"), url(/_next/static/media/VisiaPro-Italic.ae08ae03.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-Italic.b3f8ce56.woff2) format("woff2"), url(/_next/static/media/VisiaPro-Italic.67886e0d.woff) format("woff"), url(/_next/static/media/VisiaPro-Italic.6ad94fa0.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-Bold.a6d9377d.eot);
+    src: local("Visia Pro Bold"), local("VisiaPro-Bold"), url(/_next/static/media/VisiaPro-Bold.a6d9377d.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-Bold.0d9124cf.woff2) format("woff2"), url(/_next/static/media/VisiaPro-Bold.9be66d7c.woff) format("woff"), url(/_next/static/media/VisiaPro-Bold.abaeb04c.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-ExtraBold.f5ff761e.eot);
+    src: local("Visia Pro ExtraBold"), local("VisiaPro-ExtraBold"), url(/_next/static/media/VisiaPro-ExtraBold.f5ff761e.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-ExtraBold.c5f3f74b.woff2) format("woff2"), url(/_next/static/media/VisiaPro-ExtraBold.fd702062.woff) format("woff"), url(/_next/static/media/VisiaPro-ExtraBold.e80b93d8.ttf) format("truetype");
+    font-weight: 800;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-SemiBold.b2299755.eot);
+    src: local("Visia Pro SemiBold"), local("VisiaPro-SemiBold"), url(/_next/static/media/VisiaPro-SemiBold.b2299755.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-SemiBold.dd5f5e30.woff2) format("woff2"), url(/_next/static/media/VisiaPro-SemiBold.96f5abdf.woff) format("woff"), url(/_next/static/media/VisiaPro-SemiBold.62847a65.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-LightItalic.d1c21409.eot);
+    src: local("Visia Pro Light Italic"), local("VisiaPro-LightItalic"), url(/_next/static/media/VisiaPro-LightItalic.d1c21409.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-LightItalic.43e5babd.woff2) format("woff2"), url(/_next/static/media/VisiaPro-LightItalic.00e266f7.woff) format("woff"), url(/_next/static/media/VisiaPro-LightItalic.d9f7f8ba.ttf) format("truetype");
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-Heavy.1a978e0e.eot);
+    src: local("Visia Pro Heavy"), local("VisiaPro-Heavy"), url(/_next/static/media/VisiaPro-Heavy.1a978e0e.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-Heavy.a4e53f34.woff2) format("woff2"), url(/_next/static/media/VisiaPro-Heavy.cd5d5ee9.woff) format("woff"), url(/_next/static/media/VisiaPro-Heavy.84091db8.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-Regular.dc267481.eot);
+    src: local("Visia Pro Regular"), local("VisiaPro-Regular"), url(/_next/static/media/VisiaPro-Regular.dc267481.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-Regular.3993ae02.woff2) format("woff2"), url(/_next/static/media/VisiaPro-Regular.743e4e96.woff) format("woff"), url(/_next/static/media/VisiaPro-Regular.17bfc57b.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-ExtraLight.abbf19a2.eot);
+    src: local("Visia Pro ExtraLight"), local("VisiaPro-ExtraLight"), url(/_next/static/media/VisiaPro-ExtraLight.abbf19a2.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-ExtraLight.6e6ee49b.woff2) format("woff2"), url(/_next/static/media/VisiaPro-ExtraLight.d8c93e0f.woff) format("woff"), url(/_next/static/media/VisiaPro-ExtraLight.80da909d.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Visia Pro;
+    src: url(/_next/static/media/VisiaPro-Light.9fca6558.eot);
+    src: local("Visia Pro Light"), local("VisiaPro-Light"), url(/_next/static/media/VisiaPro-Light.9fca6558.eot?#iefix) format("embedded-opentype"), url(/_next/static/media/VisiaPro-Light.0e512271.woff2) format("woff2"), url(/_next/static/media/VisiaPro-Light.63da9cec.woff) format("woff"), url(/_next/static/media/VisiaPro-Light.851389d2.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal
+}
+
+.usman * {
+    font-family: var(--font-poppins)
+}
+
+.usman .waterbrush {
+    font-family: var(--font-water-brush)
+}
+
+.usman button {
+    transition: all .5s
+}
+
+.usman .bg-pattern {
+    background-image: url(/_next/static/media/pattren.59785a2d.webp)
+}
+
+.usman .dis_flex {
+    display: flex !important
+}
+
+.usman .slick-slide.slick-active.slick-center.slick-current .servicesslider {
+    background-color: #d9d9d9;
+    height: 3o0px !important;
+    border-radius: 35px;
+    box-shadow: #d9d9d9
+}
+
+.usman .slick-center .testimonialslider {
+    background-color: #f8a628;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1)
+}
+
+.usman .placeholder\:text-\[\#fff\]::-moz-placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+.usman .placeholder\:text-\[\#fff\]::placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+.usman .hover\:bg-\[\#000\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0/var(--tw-bg-opacity))
+}
+
+.usman .hover\:bg-\[\#E4BEFB\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(228 190 251/var(--tw-bg-opacity))
+}
+
+.usman .hover\:bg-\[\#ff8d66\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 141 102/var(--tw-bg-opacity))
+}
+
+.usman .hover\:text-\[\#000\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity))
+}
+
+.usman .hover\:text-\[\#755EA8\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(117 94 168/var(--tw-text-opacity))
+}
+
+.usman .hover\:text-\[\#ef4514\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(239 69 20/var(--tw-text-opacity))
+}
+
+.usman .hover\:text-\[\#fff\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+.usman .hover\:text-\[black\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity))
+}
+
+.usman .hover\:text-\[white\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+.usman .hover\:opacity-100:hover {
+    opacity: 1
+}
+
+.usman .group[open] .group-open\:rotate-180 {
+    --tw-rotate: 180deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+@media (min-width: 200px) {
+    .usman .fl\:visible {
+        visibility: visible
+    }
+
+    .usman .fl\:static {
+        position: static
+    }
+
+    .usman .fl\:relative {
+        position: relative
+    }
+
+    .usman .fl\:bottom-0 {
+        bottom: 0
+    }
+
+    .usman .fl\:bottom-5 {
+        bottom: 1.25rem
+    }
+
+    .usman .fl\:left-5 {
+        left: 1.25rem
+    }
+
+    .fl\:right-0,
+    .usman .fl\:right-\[0px\] {
+        right: 0
+    }
+
+    .usman .fl\:m-4 {
+        margin: 1rem
+    }
+
+    .usman .fl\:mx-2 {
+        margin-left: .5rem;
+        margin-right: .5rem
+    }
+
+    .usman .fl\:my-5 {
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem
+    }
+
+    .usman .fl\:my-\[20px\] {
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+
+    .usman .fl\:mt-2 {
+        margin-top: .5rem
+    }
+
+    .usman .fl\:mt-\[-20px\] {
+        margin-top: -20px
+    }
+
+    .usman .fl\:flex {
+        display: flex
+    }
+
+    .usman .fl\:hidden {
+        display: none
+    }
+
+    .usman .fl\:h-14 {
+        height: 3.5rem
+    }
+
+    .usman .fl\:h-\[100\%\] {
+        height: 100%
+    }
+
+    .usman .fl\:w-\[100\%\] {
+        width: 100%
+    }
+
+    .usman .fl\:w-\[20\%\] {
+        width: 20%
+    }
+
+    .usman .fl\:w-\[50\%\] {
+        width: 50%
+    }
+
+    .usman .fl\:w-\[80\%\] {
+        width: 80%
+    }
+
+    .usman .fl\:w-\[85\%\] {
+        width: 85%
+    }
+
+    .usman .fl\:w-full {
+        width: 100%
+    }
+
+    .usman .fl\:list-none {
+        list-style-type: none
+    }
+
+    .usman .fl\:grid-cols-1 {
+        grid-template-columns: repeat(1, minmax(0, 1fr))
+    }
+
+    .usman .fl\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .usman .fl\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr))
+    }
+
+    .usman .fl\:flex-col {
+        flex-direction: column
+    }
+
+    .usman .fl\:items-center {
+        align-items: center
+    }
+
+    .usman .fl\:justify-end {
+        justify-content: flex-end
+    }
+
+    .usman .fl\:justify-center {
+        justify-content: center
+    }
+
+    .usman .fl\:gap-0 {
+        gap: 0
+    }
+
+    .usman .fl\:gap-1 {
+        gap: .25rem
+    }
+
+    .usman .fl\:gap-10 {
+        gap: 2.5rem
+    }
+
+    .usman .fl\:gap-2 {
+        gap: .5rem
+    }
+
+    .usman .fl\:gap-4 {
+        gap: 1rem
+    }
+
+    .usman .fl\:gap-5 {
+        gap: 1.25rem
+    }
+
+    .usman .fl\:gap-8 {
+        gap: 2rem
+    }
+
+    .usman .fl\:space-y-2>:not([hidden])~:not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(.5rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(.5rem * var(--tw-space-y-reverse))
+    }
+
+    .usman .fl\:rounded-none {
+        border-radius: 0
+    }
+
+    .usman .fl\:border-r-0 {
+        border-right-width: 0
+    }
+
+    .usman .fl\:p-0 {
+        padding: 0
+    }
+
+    .usman .fl\:p-3 {
+        padding: .75rem
+    }
+
+    .usman .fl\:p-5 {
+        padding: 1.25rem
+    }
+
+    .usman .fl\:p-\[20px\] {
+        padding: 20px
+    }
+
+    .usman .fl\:p-\[3px\] {
+        padding: 3px
+    }
+
+    .usman .fl\:px-0 {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .usman .fl\:px-1 {
+        padding-left: .25rem;
+        padding-right: .25rem
+    }
+
+    .usman .fl\:px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem
+    }
+
+    .usman .fl\:px-2 {
+        padding-left: .5rem;
+        padding-right: .5rem
+    }
+
+    .usman .fl\:px-3 {
+        padding-left: .75rem;
+        padding-right: .75rem
+    }
+
+    .usman .fl\:px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    .usman .fl\:px-5 {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem
+    }
+
+    .usman .fl\:px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
+    }
+
+    .usman .fl\:px-8 {
+        padding-left: 2rem;
+        padding-right: 2rem
+    }
+
+    .usman .fl\:py-0 {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    .usman .fl\:py-1 {
+        padding-top: .25rem;
+        padding-bottom: .25rem
+    }
+
+    .usman .fl\:py-10 {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem
+    }
+
+    .usman .fl\:py-2 {
+        padding-top: .5rem;
+        padding-bottom: .5rem
+    }
+
+    .usman .fl\:py-3 {
+        padding-top: .75rem;
+        padding-bottom: .75rem
+    }
+
+    .usman .fl\:py-4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem
+    }
+
+    .usman .fl\:py-5 {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem
+    }
+
+    .usman .fl\:py-6 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem
+    }
+
+    .usman .fl\:py-8 {
+        padding-top: 2rem;
+        padding-bottom: 2rem
+    }
+
+    .usman .fl\:pb-10 {
+        padding-bottom: 2.5rem
+    }
+
+    .usman .fl\:pb-14 {
+        padding-bottom: 3.5rem
+    }
+
+    .usman .fl\:pb-4 {
+        padding-bottom: 1rem
+    }
+
+    .usman .fl\:pb-6 {
+        padding-bottom: 1.5rem
+    }
+
+    .usman .fl\:pl-0 {
+        padding-left: 0
+    }
+
+    .usman .fl\:pl-5 {
+        padding-left: 1.25rem
+    }
+
+    .usman .fl\:pr-14 {
+        padding-right: 3.5rem
+    }
+
+    .usman .fl\:pr-\[15\%\] {
+        padding-right: 15%
+    }
+
+    .usman .fl\:pt-0 {
+        padding-top: 0
+    }
+
+    .usman .fl\:pt-10 {
+        padding-top: 2.5rem
+    }
+
+    .usman .fl\:pt-4 {
+        padding-top: 1rem
+    }
+
+    .usman .fl\:pt-5 {
+        padding-top: 1.25rem
+    }
+
+    .usman .fl\:pt-\[1rem\] {
+        padding-top: 1rem
+    }
+
+    .usman .fl\:text-left {
+        text-align: left
+    }
+
+    .usman .fl\:text-center {
+        text-align: center
+    }
+
+    .usman .fl\:text-\[0\.7em\] {
+        font-size: .7em
+    }
+
+    .usman .fl\:text-\[12px\] {
+        font-size: 12px
+    }
+
+    .usman .fl\:text-\[13px\] {
+        font-size: 13px
+    }
+
+    .usman .fl\:text-\[14px\] {
+        font-size: 14px
+    }
+
+    .usman .fl\:text-\[15px\] {
+        font-size: 15px
+    }
+
+    .usman .fl\:text-\[16px\] {
+        font-size: 16px
+    }
+
+    .usman .fl\:text-\[17px\] {
+        font-size: 17px
+    }
+
+    .usman .fl\:text-\[18px\] {
+        font-size: 18px
+    }
+
+    .usman .fl\:text-\[20px\] {
+        font-size: 20px
+    }
+
+    .usman .fl\:text-\[22px\] {
+        font-size: 22px
+    }
+
+    .usman .fl\:text-\[23px\] {
+        font-size: 23px
+    }
+
+    .usman .fl\:text-\[25px\] {
+        font-size: 25px
+    }
+
+    .usman .fl\:text-\[30px\] {
+        font-size: 30px
+    }
+
+    .usman .fl\:text-\[35px\] {
+        font-size: 35px
+    }
+
+    .usman .fl\:text-\[40px\] {
+        font-size: 40px
+    }
+
+    .usman .fl\:text-sm {
+        font-size: .875rem;
+        line-height: 1.25rem
+    }
+
+    .usman .fl\:text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem
+    }
+
+    .usman .fl\:font-bold {
+        font-weight: 700
+    }
+
+    .usman .fl\:font-medium {
+        font-weight: 500
+    }
+
+    .usman .fl\:font-semibold {
+        font-weight: 600
+    }
+
+    .usman .fl\:leading-5 {
+        line-height: 1.25rem
+    }
+
+    .usman .fl\:leading-6 {
+        line-height: 1.5rem
+    }
+
+    .usman .fl\:leading-7 {
+        line-height: 1.75rem
+    }
+
+    .usman .fl\:leading-8 {
+        line-height: 2rem
+    }
+
+    .usman .fl\:leading-\[30px\] {
+        line-height: 30px
+    }
+
+    .usman .fl\:leading-\[35px\] {
+        line-height: 35px
+    }
+}
+
+@media (min-width: 480px) {
+    .usman .sm\:visible {
+        visibility: visible
+    }
+
+    .usman .sm\:static {
+        position: static
+    }
+
+    .usman .sm\:relative {
+        position: relative
+    }
+
+    .usman .sm\:m-2 {
+        margin: .5rem
+    }
+
+    .usman .sm\:mx-5 {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem
+    }
+
+    .usman .sm\:mb-0 {
+        margin-bottom: 0
+    }
+
+    .usman .sm\:ml-0 {
+        margin-left: 0
+    }
+
+    .usman .sm\:mt-0 {
+        margin-top: 0
+    }
+
+    .usman .sm\:mt-8 {
+        margin-top: 2rem
+    }
+
+    .usman .sm\:mt-\[-20px\] {
+        margin-top: -20px
+    }
+
+    .usman .sm\:flex {
+        display: flex
+    }
+
+    .usman .sm\:hidden {
+        display: none
+    }
+
+    .usman .sm\:h-14 {
+        height: 3.5rem
+    }
+
+    .usman .sm\:w-1\/2 {
+        width: 50%
+    }
+
+    .usman .sm\:w-\[100\%\] {
+        width: 100%
+    }
+
+    .usman .sm\:w-\[20\%\] {
+        width: 20%
+    }
+
+    .usman .sm\:w-\[30\%\] {
+        width: 30%
+    }
+
+    .usman .sm\:w-\[50\%\] {
+        width: 50%
+    }
+
+    .usman .sm\:w-\[60\%\] {
+        width: 60%
+    }
+
+    .usman .sm\:w-\[70\%\] {
+        width: 70%
+    }
+
+    .usman .sm\:w-\[85\%\] {
+        width: 85%
+    }
+
+    .usman .sm\:w-full {
+        width: 100%
+    }
+
+    .usman .sm\:scroll-pr-10 {
+        scroll-padding-right: 2.5rem
+    }
+
+    .usman .sm\:list-none {
+        list-style-type: none
+    }
+
+    .usman .sm\:grid-cols-1 {
+        grid-template-columns: repeat(1, minmax(0, 1fr))
+    }
+
+    .usman .sm\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .usman .sm\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr))
+    }
+
+    .usman .sm\:flex-row {
+        flex-direction: row
+    }
+
+    .usman .sm\:flex-col {
+        flex-direction: column
+    }
+
+    .usman .sm\:items-end {
+        align-items: flex-end
+    }
+
+    .usman .sm\:items-center {
+        align-items: center
+    }
+
+    .usman .sm\:justify-end {
+        justify-content: flex-end
+    }
+
+    .usman .sm\:justify-center {
+        justify-content: center
+    }
+
+    .usman .sm\:gap-0 {
+        gap: 0
+    }
+
+    .usman .sm\:gap-1 {
+        gap: .25rem
+    }
+
+    .usman .sm\:gap-10 {
+        gap: 2.5rem
+    }
+
+    .usman .sm\:gap-14 {
+        gap: 3.5rem
+    }
+
+    .usman .sm\:gap-2 {
+        gap: .5rem
+    }
+
+    .usman .sm\:gap-4 {
+        gap: 1rem
+    }
+
+    .usman .sm\:gap-8 {
+        gap: 2rem
+    }
+
+    .usman .sm\:text-clip {
+        text-overflow: clip
+    }
+
+    .usman .sm\:rounded-none {
+        border-radius: 0
+    }
+
+    .usman .sm\:p-10 {
+        padding: 2.5rem
+    }
+
+    .usman .sm\:p-5 {
+        padding: 1.25rem
+    }
+
+    .usman .sm\:p-\[20px\] {
+        padding: 20px
+    }
+
+    .usman .sm\:p-\[3px\] {
+        padding: 3px
+    }
+
+    .usman .sm\:px-0 {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .usman .sm\:px-1 {
+        padding-left: .25rem;
+        padding-right: .25rem
+    }
+
+    .usman .sm\:px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem
+    }
+
+    .usman .sm\:px-2 {
+        padding-left: .5rem;
+        padding-right: .5rem
+    }
+
+    .usman .sm\:px-20 {
+        padding-left: 5rem;
+        padding-right: 5rem
+    }
+
+    .usman .sm\:px-3 {
+        padding-left: .75rem;
+        padding-right: .75rem
+    }
+
+    .usman .sm\:px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    .usman .sm\:px-5 {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem
+    }
+
+    .usman .sm\:px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
+    }
+
+    .usman .sm\:px-8 {
+        padding-left: 2rem;
+        padding-right: 2rem
+    }
+
+    .usman .sm\:py-0 {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    .usman .sm\:py-1 {
+        padding-top: .25rem;
+        padding-bottom: .25rem
+    }
+
+    .usman .sm\:py-10 {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem
+    }
+
+    .usman .sm\:py-14 {
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem
+    }
+
+    .usman .sm\:py-2 {
+        padding-top: .5rem;
+        padding-bottom: .5rem
+    }
+
+    .usman .sm\:py-3 {
+        padding-top: .75rem;
+        padding-bottom: .75rem
+    }
+
+    .usman .sm\:py-4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem
+    }
+
+    .usman .sm\:py-5 {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem
+    }
+
+    .usman .sm\:py-6 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem
+    }
+
+    .usman .sm\:py-7 {
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem
+    }
+
+    .usman .sm\:py-8 {
+        padding-top: 2rem;
+        padding-bottom: 2rem
+    }
+
+    .usman .sm\:pb-4 {
+        padding-bottom: 1rem
+    }
+
+    .usman .sm\:pb-6 {
+        padding-bottom: 1.5rem
+    }
+
+    .usman .sm\:pl-0 {
+        padding-left: 0
+    }
+
+    .usman .sm\:pr-0 {
+        padding-right: 0
+    }
+
+    .usman .sm\:pt-0 {
+        padding-top: 0
+    }
+
+    .usman .sm\:pt-10 {
+        padding-top: 2.5rem
+    }
+
+    .usman .sm\:pt-8 {
+        padding-top: 2rem
+    }
+
+    .usman .sm\:pt-\[1rem\] {
+        padding-top: 1rem
+    }
+
+    .usman .sm\:text-left {
+        text-align: left
+    }
+
+    .usman .sm\:text-center {
+        text-align: center
+    }
+
+    .usman .sm\:text-right {
+        text-align: right
+    }
+
+    .usman .sm\:text-start {
+        text-align: start
+    }
+
+    .usman .sm\:text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+
+    .usman .sm\:text-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem
+    }
+
+    .usman .sm\:text-\[12px\] {
+        font-size: 12px
+    }
+
+    .usman .sm\:text-\[14px\] {
+        font-size: 14px
+    }
+
+    .usman .sm\:text-\[15px\] {
+        font-size: 15px
+    }
+
+    .usman .sm\:text-\[16px\] {
+        font-size: 16px
+    }
+
+    .usman .sm\:text-\[18px\] {
+        font-size: 18px
+    }
+
+    .usman .sm\:text-\[20px\] {
+        font-size: 20px
+    }
+
+    .usman .sm\:text-\[22px\] {
+        font-size: 22px
+    }
+
+    .usman .sm\:text-\[23px\] {
+        font-size: 23px
+    }
+
+    .usman .sm\:text-\[24px\] {
+        font-size: 24px
+    }
+
+    .usman .sm\:text-\[25px\] {
+        font-size: 25px
+    }
+
+    .usman .sm\:text-\[30px\] {
+        font-size: 30px
+    }
+
+    .usman .sm\:text-\[35px\] {
+        font-size: 35px
+    }
+
+    .usman .sm\:text-\[40px\] {
+        font-size: 40px
+    }
+
+    .usman .sm\:text-\[45px\] {
+        font-size: 45px
+    }
+
+    .usman .sm\:text-\[50px\] {
+        font-size: 50px
+    }
+
+    .usman .sm\:text-base {
+        font-size: 1rem;
+        line-height: 1.5rem
+    }
+
+    .usman .sm\:text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem
+    }
+
+    .usman .sm\:font-medium {
+        font-weight: 500
+    }
+
+    .usman .sm\:font-semibold {
+        font-weight: 600
+    }
+
+    .usman .sm\:leading-10 {
+        line-height: 2.5rem
+    }
+
+    .usman .sm\:leading-7 {
+        line-height: 1.75rem
+    }
+
+    .usman .sm\:leading-8 {
+        line-height: 2rem
+    }
+
+    .usman .sm\:leading-\[35px\] {
+        line-height: 35px
+    }
+
+    .usman .sm\:leading-\[40px\] {
+        line-height: 40px
+    }
+
+    .usman .sm\:leading-\[55px\] {
+        line-height: 55px
+    }
+
+    .usman .sm\:leading-\[70px\] {
+        line-height: 70px
+    }
+}
+
+@media (min-width: 200px) {
+    @media (min-width:768px) {
+        .usman .fl\:md\:w-\[60\%\] {
+            width: 60%
+        }
+    }
+}
+
+@media (min-width: 480px) {
+    @media (min-width:768px) {
+        .usman .sm\:md\:w-\[60\%\] {
+            width: 60%
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .usman .md\:visible {
+        visibility: visible
+    }
+
+    .usman .md\:static {
+        position: static
+    }
+
+    .usman .md\:absolute {
+        position: absolute
+    }
+
+    .usman .md\:relative {
+        position: relative
+    }
+
+    .usman .md\:bottom-0 {
+        bottom: 0
+    }
+
+    .usman .md\:bottom-10 {
+        bottom: 2.5rem
+    }
+
+    .usman .md\:left-10 {
+        left: 2.5rem
+    }
+
+    .usman .md\:right-\[-10px\] {
+        right: -10px
+    }
+
+    .usman .md\:m-4 {
+        margin: 1rem
+    }
+
+    .usman .md\:m-auto {
+        margin: auto
+    }
+
+    .usman .md\:mx-10 {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem
+    }
+
+    .usman .md\:mb-0 {
+        margin-bottom: 0
+    }
+
+    .usman .md\:mt-0 {
+        margin-top: 0
+    }
+
+    .usman .md\:mt-6 {
+        margin-top: 1.5rem
+    }
+
+    .usman .md\:mt-\[-20px\] {
+        margin-top: -20px
+    }
+
+    .usman .md\:flex {
+        display: flex
+    }
+
+    .usman .md\:hidden {
+        display: none
+    }
+
+    .usman .md\:h-16 {
+        height: 4rem
+    }
+
+    .usman .md\:h-\[450px\] {
+        height: 450px
+    }
+
+    .usman .md\:w-1\/2 {
+        width: 50%
+    }
+
+    .usman .md\:w-1\/3 {
+        width: 33.333333%
+    }
+
+    .usman .md\:w-1\/4 {
+        width: 25%
+    }
+
+    .usman .md\:w-2\/3 {
+        width: 66.666667%
+    }
+
+    .usman .md\:w-2\/5 {
+        width: 40%
+    }
+
+    .usman .md\:w-3\/12 {
+        width: 25%
+    }
+
+    .usman .md\:w-3\/4 {
+        width: 75%
+    }
+
+    .usman .md\:w-3\/5 {
+        width: 60%
+    }
+
+    .usman .md\:w-9\/12 {
+        width: 75%
+    }
+
+    .usman .md\:w-\[100\%\] {
+        width: 100%
+    }
+
+    .usman .md\:w-\[14\%\] {
+        width: 14%
+    }
+
+    .usman .md\:w-\[30\%\] {
+        width: 30%
+    }
+
+    .usman .md\:w-\[392px\] {
+        width: 392px
+    }
+
+    .usman .md\:w-\[40\%\] {
+        width: 40%
+    }
+
+    .usman .md\:w-\[45\%\] {
+        width: 45%
+    }
+
+    .usman .md\:w-\[49\%\] {
+        width: 49%
+    }
+
+    .usman .md\:w-\[50\%\] {
+        width: 50%
+    }
+
+    .usman .md\:w-\[530px\] {
+        width: 530px
+    }
+
+    .usman .md\:w-\[60\%\] {
+        width: 60%
+    }
+
+    .usman .md\:w-\[650px\] {
+        width: 650px
+    }
+
+    .usman .md\:w-\[70\%\] {
+        width: 70%
+    }
+
+    .usman .md\:w-\[73\%\] {
+        width: 73%
+    }
+
+    .usman .md\:w-\[80\%\] {
+        width: 80%
+    }
+
+    .usman .md\:w-\[90\%\] {
+        width: 90%
+    }
+
+    .usman .md\:w-full {
+        width: 100%
+    }
+
+    .usman .md\:max-w-lg {
+        max-width: 32rem
+    }
+
+    .usman .md\:list-disc {
+        list-style-type: disc
+    }
+
+    .usman .md\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .usman .md\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr))
+    }
+
+    .usman .md\:flex-row {
+        flex-direction: row
+    }
+
+    .usman .md\:flex-row-reverse {
+        flex-direction: row-reverse
+    }
+
+    .usman .md\:flex-col {
+        flex-direction: column
+    }
+
+    .usman .md\:items-start {
+        align-items: flex-start
+    }
+
+    .usman .md\:items-end {
+        align-items: flex-end
+    }
+
+    .usman .md\:items-center {
+        align-items: center
+    }
+
+    .usman .md\:justify-start {
+        justify-content: flex-start
+    }
+
+    .usman .md\:justify-end {
+        justify-content: flex-end
+    }
+
+    .usman .md\:justify-center {
+        justify-content: center
+    }
+
+    .usman .md\:justify-between {
+        justify-content: space-between
+    }
+
+    .usman .md\:gap-14 {
+        gap: 3.5rem
+    }
+
+    .usman .md\:gap-16 {
+        gap: 4rem
+    }
+
+    .usman .md\:gap-2 {
+        gap: .5rem
+    }
+
+    .usman .md\:gap-20 {
+        gap: 5rem
+    }
+
+    .usman .md\:gap-3 {
+        gap: .75rem
+    }
+
+    .usman .md\:gap-32 {
+        gap: 8rem
+    }
+
+    .usman .md\:gap-4 {
+        gap: 1rem
+    }
+
+    .usman .md\:gap-7 {
+        gap: 1.75rem
+    }
+
+    .usman .md\:space-y-4>:not([hidden])~:not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(1rem * var(--tw-space-y-reverse))
+    }
+
+    .usman .md\:rounded-3xl {
+        border-radius: 1.5rem
+    }
+
+    .usman .md\:rounded-none {
+        border-radius: 0
+    }
+
+    .usman .md\:border-r {
+        border-right-width: 1px
+    }
+
+    .usman .md\:bg-center {
+        background-position: 50%
+    }
+
+    .usman .md\:p-5 {
+        padding: 1.25rem
+    }
+
+    .usman .md\:p-8 {
+        padding: 2rem
+    }
+
+    .usman .md\:p-\[40px\] {
+        padding: 40px
+    }
+
+    .usman .md\:p-\[5px\] {
+        padding: 5px
+    }
+
+    .usman .md\:px-0 {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .usman .md\:px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem
+    }
+
+    .usman .md\:px-12 {
+        padding-left: 3rem;
+        padding-right: 3rem
+    }
+
+    .usman .md\:px-16 {
+        padding-left: 4rem;
+        padding-right: 4rem
+    }
+
+    .usman .md\:px-2 {
+        padding-left: .5rem;
+        padding-right: .5rem
+    }
+
+    .usman .md\:px-24 {
+        padding-left: 6rem;
+        padding-right: 6rem
+    }
+
+    .usman .md\:px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    .usman .md\:px-5 {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem
+    }
+
+    .usman .md\:px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
+    }
+
+    .usman .md\:px-8 {
+        padding-left: 2rem;
+        padding-right: 2rem
+    }
+
+    .usman .md\:py-0 {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    .usman .md\:py-10 {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem
+    }
+
+    .usman .md\:py-12 {
+        padding-top: 3rem;
+        padding-bottom: 3rem
+    }
+
+    .usman .md\:py-14 {
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem
+    }
+
+    .usman .md\:py-16 {
+        padding-top: 4rem;
+        padding-bottom: 4rem
+    }
+
+    .usman .md\:py-20 {
+        padding-top: 5rem;
+        padding-bottom: 5rem
+    }
+
+    .usman .md\:py-4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem
+    }
+
+    .usman .md\:py-5 {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem
+    }
+
+    .usman .md\:py-6 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem
+    }
+
+    .usman .md\:py-7 {
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem
+    }
+
+    .usman .md\:py-8 {
+        padding-top: 2rem;
+        padding-bottom: 2rem
+    }
+
+    .usman .md\:pb-6 {
+        padding-bottom: 1.5rem
+    }
+
+    .usman .md\:pl-0 {
+        padding-left: 0
+    }
+
+    .usman .md\:pl-10 {
+        padding-left: 2.5rem
+    }
+
+    .usman .md\:pl-5 {
+        padding-left: 1.25rem
+    }
+
+    .usman .md\:pl-6 {
+        padding-left: 1.5rem
+    }
+
+    .usman .md\:pl-8 {
+        padding-left: 2rem
+    }
+
+    .usman .md\:pr-5 {
+        padding-right: 1.25rem
+    }
+
+    .usman .md\:pr-6 {
+        padding-right: 1.5rem
+    }
+
+    .usman .md\:pr-8 {
+        padding-right: 2rem
+    }
+
+    .usman .md\:pt-10 {
+        padding-top: 2.5rem
+    }
+
+    .usman .md\:pt-5 {
+        padding-top: 1.25rem
+    }
+
+    .usman .md\:pt-6 {
+        padding-top: 1.5rem
+    }
+
+    .usman .md\:pt-\[2\.5rem\] {
+        padding-top: 2.5rem
+    }
+
+    .usman .md\:text-left {
+        text-align: left
+    }
+
+    .usman .md\:text-center {
+        text-align: center
+    }
+
+    .usman .md\:text-right {
+        text-align: right
+    }
+
+    .usman .md\:text-start {
+        text-align: start
+    }
+
+    .usman .md\:text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+
+    .usman .md\:text-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem
+    }
+
+    .usman .md\:text-\[0\.8em\] {
+        font-size: .8em
+    }
+
+    .usman .md\:text-\[14px\] {
+        font-size: 14px
+    }
+
+    .usman .md\:text-\[15px\] {
+        font-size: 15px
+    }
+
+    .usman .md\:text-\[16px\] {
+        font-size: 16px
+    }
+
+    .usman .md\:text-\[18px\] {
+        font-size: 18px
+    }
+
+    .usman .md\:text-\[20px\] {
+        font-size: 20px
+    }
+
+    .usman .md\:text-\[22px\] {
+        font-size: 22px
+    }
+
+    .usman .md\:text-\[25px\] {
+        font-size: 25px
+    }
+
+    .usman .md\:text-\[27px\] {
+        font-size: 27px
+    }
+
+    .usman .md\:text-\[30px\] {
+        font-size: 30px
+    }
+
+    .usman .md\:text-\[35px\] {
+        font-size: 35px
+    }
+
+    .usman .md\:text-\[40px\] {
+        font-size: 40px
+    }
+
+    .usman .md\:text-\[45px\] {
+        font-size: 45px
+    }
+
+    .usman .md\:text-\[50px\] {
+        font-size: 50px
+    }
+
+    .usman .md\:text-\[55px\] {
+        font-size: 55px
+    }
+
+    .usman .md\:text-\[60px\] {
+        font-size: 60px
+    }
+
+    .usman .md\:text-\[65px\] {
+        font-size: 65px
+    }
+
+    .usman .md\:text-base {
+        font-size: 1rem;
+        line-height: 1.5rem
+    }
+
+    .usman .md\:text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem
+    }
+
+    .usman .md\:font-extralight {
+        font-weight: 200
+    }
+
+    .usman .md\:font-medium {
+        font-weight: 500
+    }
+
+    .usman .md\:font-normal {
+        font-weight: 400
+    }
+
+    .usman .md\:font-semibold {
+        font-weight: 600
+    }
+
+    .usman .md\:leading-10 {
+        line-height: 2.5rem
+    }
+
+    .usman .md\:leading-3 {
+        line-height: .75rem
+    }
+
+    .usman .md\:leading-7 {
+        line-height: 1.75rem
+    }
+
+    .usman .md\:leading-8 {
+        line-height: 2rem
+    }
+
+    .usman .md\:leading-9 {
+        line-height: 2.25rem
+    }
+
+    .usman .md\:leading-\[50px\] {
+        line-height: 50px
+    }
+
+    .usman .md\:leading-\[55px\] {
+        line-height: 55px
+    }
+
+    .usman .md\:leading-\[60px\] {
+        line-height: 60px
+    }
+
+    .usman .md\:leading-\[70px\] {
+        line-height: 70px
+    }
+
+    .usman .md\:text-\[20\] {
+        color: 20
+    }
+}
+
+@media (min-width: 976px) {
+    .usman .lg\:static {
+        position: static
+    }
+
+    .usman .lg\:absolute {
+        position: absolute
+    }
+
+    .usman .lg\:relative {
+        position: relative
+    }
+
+    .usman .lg\:mb-0 {
+        margin-bottom: 0
+    }
+
+    .usman .lg\:mt-8 {
+        margin-top: 2rem
+    }
+
+    .usman .lg\:mt-\[-30px\] {
+        margin-top: -30px
+    }
+
+    .usman .lg\:flex {
+        display: flex
+    }
+
+    .usman .lg\:hidden {
+        display: none
+    }
+
+    .usman .lg\:h-14 {
+        height: 3.5rem
+    }
+
+    .usman .lg\:h-16 {
+        height: 4rem
+    }
+
+    .usman .lg\:h-\[420px\] {
+        height: 420px
+    }
+
+    .usman .lg\:w-1\/4 {
+        width: 25%
+    }
+
+    .usman .lg\:w-2\/5 {
+        width: 40%
+    }
+
+    .usman .lg\:w-3\/4 {
+        width: 75%
+    }
+
+    .usman .lg\:w-3\/5 {
+        width: 60%
+    }
+
+    .usman .lg\:w-6\/12 {
+        width: 50%
+    }
+
+    .usman .lg\:w-\[100\%\] {
+        width: 100%
+    }
+
+    .usman .lg\:w-\[14\%\] {
+        width: 14%
+    }
+
+    .usman .lg\:w-\[30\%\] {
+        width: 30%
+    }
+
+    .usman .lg\:w-\[350px\] {
+        width: 350px
+    }
+
+    .usman .lg\:w-\[40\%\] {
+        width: 40%
+    }
+
+    .usman .lg\:w-\[45\%\] {
+        width: 45%
+    }
+
+    .usman .lg\:w-\[450px\] {
+        width: 450px
+    }
+
+    .usman .lg\:w-\[50\%\] {
+        width: 50%
+    }
+
+    .usman .lg\:w-\[530px\] {
+        width: 530px
+    }
+
+    .usman .lg\:w-\[55\%\] {
+        width: 55%
+    }
+
+    .usman .lg\:w-\[60\%\] {
+        width: 60%
+    }
+
+    .usman .lg\:w-\[650px\] {
+        width: 650px
+    }
+
+    .usman .lg\:w-\[70\%\] {
+        width: 70%
+    }
+
+    .usman .lg\:w-\[73\%\] {
+        width: 73%
+    }
+
+    .usman .lg\:w-\[85\%\] {
+        width: 85%
+    }
+
+    .usman .lg\:w-full {
+        width: 100%
+    }
+
+    .usman .lg\:list-disc {
+        list-style-type: disc
+    }
+
+    .usman .lg\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .usman .lg\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr))
+    }
+
+    .usman .lg\:grid-cols-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr))
+    }
+
+    .usman .lg\:grid-cols-5 {
+        grid-template-columns: repeat(5, minmax(0, 1fr))
+    }
+
+    .usman .lg\:flex-row {
+        flex-direction: row
+    }
+
+    .usman .lg\:flex-row-reverse {
+        flex-direction: row-reverse
+    }
+
+    .usman .lg\:flex-col {
+        flex-direction: column
+    }
+
+    .usman .lg\:items-start {
+        align-items: flex-start
+    }
+
+    .usman .lg\:justify-start {
+        justify-content: flex-start
+    }
+
+    .usman .lg\:justify-end {
+        justify-content: flex-end
+    }
+
+    .usman .lg\:justify-center {
+        justify-content: center
+    }
+
+    .usman .lg\:gap-10 {
+        gap: 2.5rem
+    }
+
+    .usman .lg\:gap-12 {
+        gap: 3rem
+    }
+
+    .usman .lg\:gap-14 {
+        gap: 3.5rem
+    }
+
+    .usman .lg\:gap-16 {
+        gap: 4rem
+    }
+
+    .usman .lg\:gap-20 {
+        gap: 5rem
+    }
+
+    .usman .lg\:gap-3 {
+        gap: .75rem
+    }
+
+    .usman .lg\:gap-4 {
+        gap: 1rem
+    }
+
+    .usman .lg\:gap-6 {
+        gap: 1.5rem
+    }
+
+    .usman .lg\:gap-7 {
+        gap: 1.75rem
+    }
+
+    .usman .lg\:gap-72 {
+        gap: 18rem
+    }
+
+    .usman .lg\:gap-\[100px\] {
+        gap: 100px
+    }
+
+    .usman .lg\:rounded-3xl {
+        border-radius: 1.5rem
+    }
+
+    .usman .lg\:border-r {
+        border-right-width: 1px
+    }
+
+    .usman .lg\:p-\[40px\] {
+        padding: 40px
+    }
+
+    .usman .lg\:p-\[5px\] {
+        padding: 5px
+    }
+
+    .usman .lg\:px-0 {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .usman .lg\:px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem
+    }
+
+    .usman .lg\:px-16 {
+        padding-left: 4rem;
+        padding-right: 4rem
+    }
+
+    .usman .lg\:px-2 {
+        padding-left: .5rem;
+        padding-right: .5rem
+    }
+
+    .usman .lg\:px-20 {
+        padding-left: 5rem;
+        padding-right: 5rem
+    }
+
+    .usman .lg\:px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    .usman .lg\:px-5 {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem
+    }
+
+    .usman .lg\:px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
+    }
+
+    .usman .lg\:px-8 {
+        padding-left: 2rem;
+        padding-right: 2rem
+    }
+
+    .usman .lg\:py-0 {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    .usman .lg\:py-10 {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem
+    }
+
+    .usman .lg\:py-14 {
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem
+    }
+
+    .usman .lg\:py-16 {
+        padding-top: 4rem;
+        padding-bottom: 4rem
+    }
+
+    .usman .lg\:py-20 {
+        padding-top: 5rem;
+        padding-bottom: 5rem
+    }
+
+    .usman .lg\:py-3 {
+        padding-top: .75rem;
+        padding-bottom: .75rem
+    }
+
+    .usman .lg\:py-36 {
+        padding-top: 9rem;
+        padding-bottom: 9rem
+    }
+
+    .usman .lg\:py-4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem
+    }
+
+    .usman .lg\:py-6 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem
+    }
+
+    .usman .lg\:py-7 {
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem
+    }
+
+    .usman .lg\:py-8 {
+        padding-top: 2rem;
+        padding-bottom: 2rem
+    }
+
+    .usman .lg\:pb-4 {
+        padding-bottom: 1rem
+    }
+
+    .usman .lg\:pb-5 {
+        padding-bottom: 1.25rem
+    }
+
+    .usman .lg\:pl-5 {
+        padding-left: 1.25rem
+    }
+
+    .usman .lg\:pt-0 {
+        padding-top: 0
+    }
+
+    .usman .lg\:pt-\[1rem\] {
+        padding-top: 1rem
+    }
+
+    .usman .lg\:text-left {
+        text-align: left
+    }
+
+    .usman .lg\:text-start {
+        text-align: start
+    }
+
+    .usman .lg\:text-5xl {
+        font-size: 3rem;
+        line-height: 1
+    }
+
+    .usman .lg\:text-\[16px\] {
+        font-size: 16px
+    }
+
+    .usman .lg\:text-\[18px\] {
+        font-size: 18px
+    }
+
+    .usman .lg\:text-\[20px\] {
+        font-size: 20px
+    }
+
+    .usman .lg\:text-\[22px\] {
+        font-size: 22px
+    }
+
+    .usman .lg\:text-\[25px\] {
+        font-size: 25px
+    }
+
+    .usman .lg\:text-\[26px\] {
+        font-size: 26px
+    }
+
+    .usman .lg\:text-\[27px\] {
+        font-size: 27px
+    }
+
+    .usman .lg\:text-\[30px\] {
+        font-size: 30px
+    }
+
+    .usman .lg\:text-\[35px\] {
+        font-size: 35px
+    }
+
+    .usman .lg\:text-\[37px\] {
+        font-size: 37px
+    }
+
+    .usman .lg\:text-\[40px\] {
+        font-size: 40px
+    }
+
+    .usman .lg\:text-\[45px\] {
+        font-size: 45px
+    }
+
+    .usman .lg\:text-\[50px\] {
+        font-size: 50px
+    }
+
+    .usman .lg\:text-\[55px\] {
+        font-size: 55px
+    }
+
+    .usman .lg\:text-\[60px\] {
+        font-size: 60px
+    }
+
+    .usman .lg\:text-\[65px\] {
+        font-size: 65px
+    }
+
+    .usman .lg\:text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem
+    }
+
+    .usman .lg\:text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem
+    }
+
+    .usman .lg\:font-medium {
+        font-weight: 500
+    }
+
+    .usman .lg\:leading-10 {
+        line-height: 2.5rem
+    }
+
+    .usman .lg\:leading-3 {
+        line-height: .75rem
+    }
+
+    .usman .lg\:leading-9 {
+        line-height: 2.25rem
+    }
+
+    .usman .lg\:leading-\[42px\] {
+        line-height: 42px
+    }
+
+    .usman .lg\:leading-\[50px\] {
+        line-height: 50px
+    }
+
+    .usman .lg\:leading-\[55px\] {
+        line-height: 55px
+    }
+
+    .usman .lg\:leading-\[70px\] {
+        line-height: 70px
+    }
+}
+
+@media (min-width: 1440px) {
+    .usman .xl\:static {
+        position: static
+    }
+
+    .usman .xl\:absolute {
+        position: absolute
+    }
+
+    .usman .xl\:relative {
+        position: relative
+    }
+
+    .usman .xl\:right-\[-10px\] {
+        right: -10px
+    }
+
+    .usman .xl\:right-\[-20px\] {
+        right: -20px
+    }
+
+    .usman .xl\:mt-\[-50px\] {
+        margin-top: -50px
+    }
+
+    .usman .xl\:flex {
+        display: flex
+    }
+
+    .usman .xl\:hidden {
+        display: none
+    }
+
+    .usman .xl\:h-20 {
+        height: 5rem
+    }
+
+    .usman .xl\:h-\[400px\] {
+        height: 400px
+    }
+
+    .usman .xl\:w-1\/2 {
+        width: 50%
+    }
+
+    .usman .xl\:w-1\/3 {
+        width: 33.333333%
+    }
+
+    .usman .xl\:w-2\/3 {
+        width: 66.666667%
+    }
+
+    .usman .xl\:w-3\/4 {
+        width: 75%
+    }
+
+    .usman .xl\:w-\[14\%\] {
+        width: 14%
+    }
+
+    .usman .xl\:w-\[30\%\] {
+        width: 30%
+    }
+
+    .usman .xl\:w-\[40\%\] {
+        width: 40%
+    }
+
+    .usman .xl\:w-\[45\%\] {
+        width: 45%
+    }
+
+    .usman .xl\:w-\[450px\] {
+        width: 450px
+    }
+
+    .usman .xl\:w-\[50\%\] {
+        width: 50%
+    }
+
+    .usman .xl\:w-\[530px\] {
+        width: 530px
+    }
+
+    .usman .xl\:w-\[55\%\] {
+        width: 55%
+    }
+
+    .usman .xl\:w-\[550px\] {
+        width: 550px
+    }
+
+    .usman .xl\:w-\[60\%\] {
+        width: 60%
+    }
+
+    .usman .xl\:w-\[650px\] {
+        width: 650px
+    }
+
+    .usman .xl\:w-\[70\%\] {
+        width: 70%
+    }
+
+    .usman .xl\:w-\[73\%\] {
+        width: 73%
+    }
+
+    .usman .xl\:w-\[85\%\] {
+        width: 85%
+    }
+
+    .usman .xl\:w-full {
+        width: 100%
+    }
+
+    .usman .xl\:list-disc {
+        list-style-type: disc
+    }
+
+    .usman .xl\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr))
+    }
+
+    .usman .xl\:grid-cols-5 {
+        grid-template-columns: repeat(5, minmax(0, 1fr))
+    }
+
+    .usman .xl\:flex-row {
+        flex-direction: row
+    }
+
+    .usman .xl\:flex-row-reverse {
+        flex-direction: row-reverse
+    }
+
+    .usman .xl\:flex-col {
+        flex-direction: column
+    }
+
+    .usman .xl\:items-start {
+        align-items: flex-start
+    }
+
+    .usman .xl\:justify-start {
+        justify-content: flex-start
+    }
+
+    .usman .xl\:justify-center {
+        justify-content: center
+    }
+
+    .usman .xl\:gap-12 {
+        gap: 3rem
+    }
+
+    .usman .xl\:gap-14 {
+        gap: 3.5rem
+    }
+
+    .usman .xl\:gap-16 {
+        gap: 4rem
+    }
+
+    .usman .xl\:gap-20 {
+        gap: 5rem
+    }
+
+    .usman .xl\:gap-3 {
+        gap: .75rem
+    }
+
+    .usman .xl\:gap-36 {
+        gap: 9rem
+    }
+
+    .usman .xl\:gap-4 {
+        gap: 1rem
+    }
+
+    .usman .xl\:gap-40 {
+        gap: 10rem
+    }
+
+    .usman .xl\:gap-6 {
+        gap: 1.5rem
+    }
+
+    .usman .xl\:gap-7 {
+        gap: 1.75rem
+    }
+
+    .usman .xl\:gap-\[100px\] {
+        gap: 100px
+    }
+
+    .usman .xl\:rounded-3xl {
+        border-radius: 1.5rem
+    }
+
+    .usman .xl\:p-\[40px\] {
+        padding: 40px
+    }
+
+    .usman .xl\:p-\[5px\] {
+        padding: 5px
+    }
+
+    .usman .xl\:px-0 {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .usman .xl\:px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem
+    }
+
+    .usman .xl\:px-16 {
+        padding-left: 4rem;
+        padding-right: 4rem
+    }
+
+    .usman .xl\:px-2 {
+        padding-left: .5rem;
+        padding-right: .5rem
+    }
+
+    .usman .xl\:px-5 {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem
+    }
+
+    .usman .xl\:px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
+    }
+
+    .usman .xl\:px-8 {
+        padding-left: 2rem;
+        padding-right: 2rem
+    }
+
+    .usman .xl\:py-0 {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    .usman .xl\:py-10 {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem
+    }
+
+    .usman .xl\:py-14 {
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem
+    }
+
+    .usman .xl\:py-16 {
+        padding-top: 4rem;
+        padding-bottom: 4rem
+    }
+
+    .usman .xl\:py-20 {
+        padding-top: 5rem;
+        padding-bottom: 5rem
+    }
+
+    .usman .xl\:py-36 {
+        padding-top: 9rem;
+        padding-bottom: 9rem
+    }
+
+    .usman .xl\:py-4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem
+    }
+
+    .usman .xl\:py-6 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem
+    }
+
+    .usman .xl\:py-7 {
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem
+    }
+
+    .usman .xl\:py-8 {
+        padding-top: 2rem;
+        padding-bottom: 2rem
+    }
+
+    .usman .xl\:pb-9 {
+        padding-bottom: 2.25rem
+    }
+
+    .usman .xl\:pl-0 {
+        padding-left: 0
+    }
+
+    .usman .xl\:pl-5 {
+        padding-left: 1.25rem
+    }
+
+    .usman .xl\:pt-\[1rem\] {
+        padding-top: 1rem
+    }
+
+    .usman .xl\:text-left {
+        text-align: left
+    }
+
+    .usman .xl\:text-start {
+        text-align: start
+    }
+
+    .usman .xl\:text-end {
+        text-align: end
+    }
+
+    .usman .xl\:text-6xl {
+        font-size: 3.75rem;
+        line-height: 1
+    }
+
+    .usman .xl\:text-9xl {
+        font-size: 8rem;
+        line-height: 1
+    }
+
+    .usman .xl\:text-\[0\.9em\] {
+        font-size: .9em
+    }
+
+    .usman .xl\:text-\[14px\] {
+        font-size: 14px
+    }
+
+    .usman .xl\:text-\[17px\] {
+        font-size: 17px
+    }
+
+    .usman .xl\:text-\[18px\] {
+        font-size: 18px
+    }
+
+    .usman .xl\:text-\[20px\] {
+        font-size: 20px
+    }
+
+    .usman .xl\:text-\[22px\] {
+        font-size: 22px
+    }
+
+    .usman .xl\:text-\[24px\] {
+        font-size: 24px
+    }
+
+    .usman .xl\:text-\[25px\] {
+        font-size: 25px
+    }
+
+    .usman .xl\:text-\[27px\] {
+        font-size: 27px
+    }
+
+    .usman .xl\:text-\[28px\] {
+        font-size: 23px
+    }
+
+    .usman .xl\:text-\[30px\] {
+        font-size: 30px
+    }
+
+    .usman .xl\:text-\[35px\] {
+        font-size: 35px
+    }
+
+    .usman .xl\:text-\[40px\] {
+        font-size: 40px
+    }
+
+    .usman .xl\:text-\[45px\] {
+        font-size: 45px
+    }
+
+    .usman .xl\:text-\[50px\] {
+        font-size: 50px
+    }
+
+    .usman .xl\:text-\[55px\] {
+        font-size: 55px
+    }
+
+    .usman .xl\:text-\[60px\] {
+        font-size: 60px
+    }
+
+    .usman .xl\:text-\[65px\] {
+        font-size: 65px
+    }
+
+    .usman .xl\:text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem
+    }
+
+    .usman .xl\:font-extralight {
+        font-weight: 200
+    }
+
+    .usman .xl\:font-medium {
+        font-weight: 500
+    }
+
+    .usman .xl\:leading-10 {
+        line-height: 2.5rem
+    }
+
+    .usman .xl\:leading-3 {
+        line-height: .75rem
+    }
+
+    .usman .xl\:leading-\[40px\] {
+        line-height: 40px
+    }
+
+    .usman .xl\:leading-\[55px\] {
+        line-height: 55px
+    }
+
+    .usman .xl\:leading-\[60px\] {
+        line-height: 60px
+    }
+
+    .usman .xl\:leading-\[70px\] {
+        line-height: 70px
+    }
+}
+
+.usman .popupClose {
+    top: -15px;
+    right: -20px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #fff;
+    width: 30px;
+    text-align: center;
+    border-radius: 100%
+}
+
+.usman .popupMain {
+    width: 100%;
+    height: 100vh;
+    background-color: hsla(0, 0%, 100%, .95);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: 9999999999;
+    left: 0;
+    display: none
+}
+
+.usman .popupMain.show {
+    display: flex
+}
+
+.usman .popupBox.show {
+    transform: scale(1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px
+}
+
+.usman .popuInner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.usman .popupClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999999;
+    cursor: pointer
+}
+
+.usman .popupClose img {
+    width: 25px;
+    height: 25px
+}
+
+.usman .popupMain input,
+.usman .popupMain textarea {
+    background-color: transparent;
+    border-color: #000
+}
