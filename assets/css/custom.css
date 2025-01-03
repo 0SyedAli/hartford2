@@ -919,6 +919,10 @@ section.section6 .s3_right img {
   padding: 40px 0 0;
 }
 
+footer.usman a, footer.usman a p {
+  color: #5e6075 !important;
+}
+
 .s9_head {
   display: flex;
   align-items: center;
@@ -1380,6 +1384,7 @@ section.section6 .s3_right img {
     font-size: 11px;
     text-align: center;
   }
+
   .navbar-nav {
     align-items: center;
   }

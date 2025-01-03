@@ -3,7 +3,7 @@
         <div
             class="max-w-[1350px] flex flex-col w-full justify-center items-center py-12  xl:flex-row lg:flex-row md:flex-row sm:flex fl:flex">
             <div
-                class="w-full  xl:text-start lg:text-start md:text-start grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 sm:text-center fl:grid-cols-1 fl:text-center  xl:gap-6 lg:gap-6 md:gap-2 sm:gap-2 fl:gap-2">
+                class="w-full  text-black xl:text-start lg:text-start md:text-start grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 sm:text-center fl:grid-cols-1 fl:text-center  xl:gap-6 lg:gap-6 md:gap-2 sm:gap-2 fl:gap-2">
                 <div class=""><img alt="fremont-logo" loading="lazy" width="299" height="101" decoding="async" data-nimg="1"
                         class="w-2/3 mx-auto" style="color:transparent" src="./assets/images/logo.png">
                     <div

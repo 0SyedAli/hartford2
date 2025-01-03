@@ -7,9 +7,9 @@ include 'includes/header.php';
 <div class="innerp">
 
     <section class="banner-section">
-    <div class="container-fluid">
-        <div class="row flex-column-reverse gy-4 flex-lg-row">
-            <div class="col-12 col-lg-6">
+        <div class="container-fluid">
+            <div class="row flex-column-reverse gy-4 flex-lg-row">
+                <div class="col-12 col-lg-6">
                     <img src="./assets/images/banner02.png" class="w-100" alt="Italian Trulli">
                     <div class="bsl-bottom pt-5">
                         <div class="banner-btm-slider">
@@ -394,6 +394,9 @@ include 'includes/header.php';
 </section>
 
 <div class="usman">
+    <?php
+    include 'includes/section_u_13.php';
+    ?>
     <div class="w-full flex justify-center items-center xl:py-10 lg:py-10 md:py-10 sm:py-0 fl:py-0"
         style="background-image:url(assets/images/u/faq.9df38ab0.webp);background-repeat:no-repeat;background-size:cover">
         <div class="max-w-[1350px] flex w-full xl:px-2 lg:px-2 md:px-2 sm:px-1 fl:px-1  gap-4">
